@@ -1,0 +1,85 @@
+package abstractAnimal;
+
+public abstract class Animal {
+
+	// Attributes
+	String name;
+
+	// Methods
+	public abstract void move();
+
+	public abstract void calls();
+
+}// Animal
+
+class Frog extends Animal {
+
+	@Override
+	public void move() {
+		System.out.println();
+	}
+
+	@Override
+	public void calls() {
+		System.out.println();
+	}
+
+}// Frog
+
+class Hawk extends Animal {
+
+	@Override
+	public void move() {
+		System.out.println();
+	}
+
+	@Override
+	public void calls() {
+		System.out.println();
+	}
+
+}// Hawk
+
+class Crocodile extends Animal {
+
+	@Override
+	public void move() {
+		System.out.println();
+
+	}
+
+	@Override
+	public void calls() {
+		System.out.println();
+
+	}
+
+}// Crocodile
+
+class Gibbon extends Animal {
+
+	@Override
+	public void move() {
+		System.out.println();
+	}
+
+	@Override
+	public void calls() {
+		System.out.println();
+	}
+
+}// Gibbon
+
+class Lamprey extends Animal {
+
+	@Override
+	public void move() {
+		System.out.println();
+	}
+
+	@Override
+	public void calls() {
+		System.out.println();
+	}
+
+}// Lamprey
